@@ -28,12 +28,12 @@
 /* ||               CABECALHO E GERAL              || */
 /* ================================================== */
 header {
-    background-color: rgba(255, 255, 255, 0.15); /* Fundo transparente */
-    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
     display: flex;
-    justify-content: center; /* Logo centralizada */
+    justify-content: space-between;
     align-items: center;
-    padding: 15px 5%;
+    padding: 5px 5%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     position: fixed;
     top: 0;
@@ -43,25 +43,15 @@ header {
     transition: all 0.3s;
 }
 
-.logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
 .logo img {
-    height: 60px;
+    height: 100px;
     width: auto;
-}
-
-.navbar {
-    position: absolute;
-    right: 5%;
+    margin: -10px 0;
 }
 
 .navbar a {
     font-size: 18px;
-    color: var(--cor-branco); /* Branco para contrastar com o fundo transparente */
+    color: var(--cor-branco);
     text-decoration: none;
     margin-left: 25px; 
     transition: color 0.3s; 
@@ -638,7 +628,7 @@ section {
 
 #menu-icon {
     font-size: 28px;
-    color: var(--cor-preto);
+    color: var(--cor-branco);
     cursor: pointer;
     display: none;
 }
@@ -679,7 +669,8 @@ section {
         top: 100%;
         left: -100%;
         width: 100%;
-        background-color: var(--cor-branco);
+        background-color: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
         padding: 20px 5%;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         transition: all .4s ease;
@@ -691,6 +682,7 @@ section {
         display: block;
         margin: 0;
         font-size: 20px;
+        color: var(--cor-cinza-escuro);
     }
     .navbar.active {
         left: 0;
