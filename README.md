@@ -56,17 +56,12 @@ A **ComunicaStands** é uma empresa consolidada no mercado de eventos, especiali
 
 ## 📸 Screenshots
 
-### Desktop:
-![Home Desktop](./screenshots/home-desktop.png)
-*Página inicial - versão desktop*
+![Home Desktop](./home-desktop.png)
 
-### Mobile:
-![Home Mobile](./screenshots/home-mobile.png)
-*Página inicial - versão mobile*
+![Home Mobile](./home-mobile.png)
 
-### Portfólio:
-![Portfólio](./screenshots/portfolio.png)
-*Galeria de projetos*
+![Portfólio](./portfolio.png)
+
 
 ---
 
